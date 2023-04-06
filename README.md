@@ -11,5 +11,5 @@ It was done to consolidate and further improve my knowledge and skills of progra
 * OS: Ubuntu 20.04
 
 ### Authors
-Akubo Ojonugwa Sylvanus [![S]
-(https://upload.wikimedia.org/wikipedia/fr/thumb/c/c8/Twitter_Bird.svg/30px-Twitter_Bird.svg.png)](https://twitter.com/SilverAkubo)
+Akubo Ojonugwa Sylvanus
+[![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/SilverAkubo.svg?style=social&label=Follow%20%40SilverAkubo)](https://twitter.com/SilverAkubo)
