@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# not complete, I dont know it yet
+
+find . -type f -name "*.gif" 
