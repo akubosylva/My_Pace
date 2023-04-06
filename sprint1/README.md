@@ -1,4 +1,4 @@
-## Sprint ! Works
+# Sprint ! Works
 
 > This Contains all the tasks covered in Sprint 1
 > Consist of Linux command, Shell basics and C-Language
@@ -8,5 +8,6 @@
 * OS: Ubuntu 20.04
 
 ### Authors
-Akubo Ojonugwa Sylvanus [![M]
-(https://upload.wikimedia.org/wikipedia/fr/thumb/c/c8/Twitter_Bird.svg/30px-Twitter_Bird.svg.png)](https://twitter.com/SilverAkubo)
+Akubo Ojonugwa Sylvanus
+
+[![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/SilverAkubo.svg?style=social&label=Follow%20%40SilverAkubo)](https://twitter.com/SilverAkubo)
