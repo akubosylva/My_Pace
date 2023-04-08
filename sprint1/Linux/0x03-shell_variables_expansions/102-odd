@@ -1,0 +1,4 @@
+#!/bin/bash
+#I dont know this one sha // got the idea from a friend
+
+paste - - | cut -f1 
