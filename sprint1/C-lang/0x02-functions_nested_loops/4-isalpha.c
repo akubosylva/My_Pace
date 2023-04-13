@@ -3,6 +3,7 @@
 
 /**
  * _isalpha - checks for alphabetic characters
+ * @c: integer parament
  * Return: one(1) if its a letter and zero(0) otherwise
  */
 
