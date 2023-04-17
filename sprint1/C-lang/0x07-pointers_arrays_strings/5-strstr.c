@@ -12,21 +12,27 @@
 
 char *_strstr(char *haystack, char *needle)
 {
-	int i = 0, j = 0;
+	int i, j ,k;
 	char *ptr = NULL;
 
-	while (*(needle + i) != '\0')
+	if (needle[0] == '\0')
+		return (haystack);
+
+	for (i = 0; *(haystack + i) != '\0'; i++)
 	{
-		while (*(haystack + j) != '\0')
+		if (*(haystack + i) == (needle[0]))
 		{
-			if (*(needle + i) == *(haystack + j))
+			k = i, j = 0;
+			while (*(needle + j) != '\0')
 			{
-				ptr = (haystack + j);
-				return (ptr);
+				if (*(needle + j) == *(haystack + k))
+					j++, k++;
+				else
+					break;
 			}
-			j++;
+			if (*(needle + j) == '\0')
+				return (haystack + i);
 		}
-		i++;
 	}
 	return (ptr);
 }
