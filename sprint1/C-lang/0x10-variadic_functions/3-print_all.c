@@ -22,23 +22,26 @@ void print_all(const char * const format, ...)
 		{
 			case 'c':
 				printf("%s%c", sep, va_arg(ap, int));
+				sep = ", ";
 				break;
 			case 'i':
 				printf("%s%d", sep, va_arg(ap, int));
+				sep = ", ";
 				break;
 			case 'f':
 				printf("%s%f", sep, va_arg(ap, double));
+				sep = ", ";
 				break;
 			case 's':
 				s = va_arg(ap, char *);
 				if (s == NULL)
 					printf("(nil)");
 				printf("%s%s", sep, s);
+				sep = ", ";
 				break;
 			default:
 				break;
 		}
-		sep = ", ";
 	}
 	printf("\n");
 }
