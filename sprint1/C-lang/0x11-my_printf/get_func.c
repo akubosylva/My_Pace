@@ -21,11 +21,11 @@ int (*get_func_print(char c))(va_list, int)
 		{'b', print_binary},
 		{'u', print_unsigned},
 		{'o', print_octal},
-		/*{'x', print_hex},
+		{'x', print_hex},
 		{'X', print_Hex},
 		{'S', print_non_printable},
 		{'p', print_pointer},
-		{'l', print_long},
+		/*{'l', print_long},
 		{'h', print_short},
 		{'r', print_reverse},
 		{'R', print_Rot13},*/
