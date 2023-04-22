@@ -18,7 +18,7 @@ int print_int(va_list ap, int count)
 		num = (-1 * num);
 		count += _putchar('-');
 	}
-	count += print_num(num, 10, count);
+	count += print_digit(num, 10, count, "0123456789");
 
 	return (count);
 }

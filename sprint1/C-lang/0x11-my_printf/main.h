@@ -34,6 +34,7 @@ int print_non_printable(va_list, int);
 int print_pointer(va_list, int);
 int print_reverse(va_list, int);
 int print_Rot13(va_list, int);
-int print_num(int, int, int);
+int print_num(unsigned long int, unsigned long int, int, const char *);
+int print_digit(int, unsigned long int, int, const char *);
 
 #endif /* MAIN_ */
