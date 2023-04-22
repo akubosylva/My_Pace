@@ -1,5 +1,4 @@
 #include "main.h"
-#define LIMIT 100000
 
 /**
  * print_octal - a function that printf integers to octal base
