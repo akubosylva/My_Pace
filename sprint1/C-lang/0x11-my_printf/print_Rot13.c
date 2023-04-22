@@ -11,29 +11,23 @@
 int print_Rot13(va_list ap, int count)
 {
 	char *s;
-	char *str = "(nil)";
-	int i, j;
-	char a[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
-	char b[] = "nopqrstuvwxyzabcdefghijklmNOPQRSTUVWXYZABCDEFGHIJKLM";
+	int i = 0, j = 0;
+	char arr[] = "NOPQRSTUVWXYZABCDEFGHIJKLM      nopqrstuvwxyzabcdefghijklm";
 
 	s = va_arg(ap, char *);
 	if (s == NULL)
+		return (-1);	
+	while (*(s + i))
 	{
-		for (i = 0; *(str + i) != '\0'; i++)
-			count += _putchar(*(str + i));
-		return (count);
-	}
-
-	for (i = 0; *(s + i) != '\0'; i++)
-	{
-		j = 0;
-		while (*(s + i) != *(a + j) && *(a + j) != '\0')
-			j++;
-		if (*(s + i) == *(a + j))
+		if ((*(s + i) >= 'A' && *(s + i) <= 'Z') 
+				|| (*(s + i) >= 'a' && *(s + i) <= 'z'))
 		{
-			*(s + i) = *(b + j);
-			count += _putchar(*(s + i));
+			j = (*(s + i) - 65);
+			count += _putchar(arr[j]);
 		}
+		else
+			count += _putchar(*(s + i));
+		i++;
 	}
 	return (count);
 }
