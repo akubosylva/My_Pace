@@ -10,10 +10,10 @@
 
 int print_binary(va_list ap, int count)
 {
-	int num;
+	unsigned long int num;
 
-	num = va_arg(ap, int);
-	count += print_num(num, 2, count);
+	num = va_arg(ap, unsigned long int);
+	count += print_num(num, 2, count, "01");
 
 	return (count);
 }
