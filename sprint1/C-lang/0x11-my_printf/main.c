@@ -44,5 +44,6 @@ int main(void)
 	printf("Binary: [%b]\n", 98);
 	_printf("Non_printable: %S\n", "Best\nSchool");
 	_printf("Rot13: [%R]\n", "rotate by 13 places");
+	_printf("Reverse: [%r]\n", "rotate by 13 places");
     return (0);
 }

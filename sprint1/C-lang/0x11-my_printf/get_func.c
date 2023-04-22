@@ -26,8 +26,8 @@ int (*get_func_print(char c))(va_list, int)
 		{'S', print_non_printable},
 		{'p', print_pointer},
 		/*{'l', print_long},
-		{'h', print_short},
-		{'r', print_reverse},*/
+		{'h', print_short},*/
+		{'r', print_reverse},
 		{'R', print_Rot13},
 		{'\0', NULL}
 	};
