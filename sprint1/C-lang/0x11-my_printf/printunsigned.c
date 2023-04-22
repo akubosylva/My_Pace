@@ -1,5 +1,4 @@
 #include "main.h"
-#define LIMIT 100000
 
 /**
  * print_unsigned - a function that prints unsigned integer
