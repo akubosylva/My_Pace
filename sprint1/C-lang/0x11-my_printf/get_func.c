@@ -18,10 +18,10 @@ int (*get_func_print(char c))(va_list, int)
 		{'s', print_string},
 		{'d', print_int},
 		{'i', print_int},
-		/*{'b', print_binary},*/
+		{'b', print_binary},
 		{'u', print_unsigned},
-		/*{'o', print_octal},
-		{'x', print_hex},
+		{'o', print_octal},
+		/*{'x', print_hex},
 		{'X', print_Hex},
 		{'S', print_non_printable},
 		{'p', print_pointer},
