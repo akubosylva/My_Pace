@@ -12,14 +12,11 @@
 int print_unsigned(va_list ap, int count)
 {
 	unsigned int num;
-	int num_head, num_tail;
+
 
 	num = va_arg(ap, unsigned int);
 	
-	num_head = (num / LIMIT);
-	num_tail = (num % LIMIT);
-	count += print_num(num_head, 10, count);
-	count += print_num(num_tail, 10, count);
-	
+	count += print_num(num, 10, count, "0123456789");
+
 	return (count);
 }
