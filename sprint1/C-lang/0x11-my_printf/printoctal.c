@@ -4,7 +4,7 @@
  * print_octal - a function that printf integers to octal base
  * @ap: va_list parameter
  * @count: word: count
- * 
+ *
  * Return: count
  */
 
