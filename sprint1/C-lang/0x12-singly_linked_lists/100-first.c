@@ -3,7 +3,7 @@
 /**
  * before_main - print to stdout before execution os main function
  * Note: made possible by prior declaration
- * of "__attribute__ ((contructor))"
+ * of "__attribute__ ((constructor))"
  */
 
 void __attribute__ ((constructor)) before_main()
