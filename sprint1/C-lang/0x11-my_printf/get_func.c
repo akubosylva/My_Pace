@@ -4,16 +4,13 @@
  * get_func_print - a function pointer that get the function to print
  * a format specifier
  * @c: placeholder character
- * @ap: va_list parameter
- * @count: word_count parameter
  *
  * Return: count;
  */
 
 int (*get_func_print(char c))(va_list, int)
 {
-	func funcArr[] = 
-	{
+	func funcArr[] = {
 		{'c', print_char},
 		{'s', print_string},
 		{'d', print_int},
@@ -25,8 +22,8 @@ int (*get_func_print(char c))(va_list, int)
 		{'X', print_Hex},
 		{'S', print_non_printable},
 		{'p', print_pointer},
-		/*{'l', print_long},
-		{'h', print_short},*/
+		/*{'l', print_long},*/
+		/*{'h', print_short},*/
 		{'r', print_reverse},
 		{'R', print_Rot13},
 		{'\0', NULL}
