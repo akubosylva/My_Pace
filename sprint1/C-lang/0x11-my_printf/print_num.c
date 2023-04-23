@@ -24,11 +24,13 @@ int print_digit(int num, unsigned long int base, int count, const char *digit)
  * @num: number to print
  * @base: base to print to
  * @count: count
+ * @digits: digit of base to print
  *
  * Return: count
  */
 
-int print_num(unsigned long int num, unsigned long int base, int count, const char *digits)
+int print_num(unsigned long int num, unsigned long int base,
+		int count, const char *digits)
 {
 	if (num >= base)
 		print_num((num / base), base, count++, digits);
