@@ -5,7 +5,7 @@
  * as the printf() in C_language
  * Description: this is variadic function that can take multiple input
  * @format: a string character
- * 
+ *
  * Return: the number of characters printed excluding the null byte
  */
 
@@ -14,7 +14,7 @@ int _printf(const char *format, ...)
 	va_list ap;
 	int (*get_func_ptr)(va_list, int);
 	int count = 0, i = 0;
-	
+
 	va_start(ap, format);
 
 	while (format && *(format + i))
