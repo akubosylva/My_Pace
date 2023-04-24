@@ -16,10 +16,10 @@ int print_Rot13(va_list ap, int count)
 
 	s = va_arg(ap, char *);
 	if (s == NULL)
-		return (-1);	
+		return (-1);
 	while (*(s + i))
 	{
-		if ((*(s + i) >= 'A' && *(s + i) <= 'Z') 
+		if ((*(s + i) >= 'A' && *(s + i) <= 'Z')
 				|| (*(s + i) >= 'a' && *(s + i) <= 'z'))
 		{
 			j = (*(s + i) - 65);
