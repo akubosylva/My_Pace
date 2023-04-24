@@ -11,6 +11,7 @@
 int print_char(va_list ap, int count)
 {
 	int c;
+
 	c = va_arg(ap, int);
 	count += _putchar(c);
 
