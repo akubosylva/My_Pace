@@ -10,11 +10,11 @@
 
 void print_binary(unsigned long int n)
 {
-	int c, result, count = 0;
+	int i, result, count = 0;
 	
-	for (c = 31; c >= 0; c--)
+	for (i = 63; i >= 0; i--)
 	{
-		result = n >> c;
+		result = n >> i;
 		if (result & 1)
 		{
 			_putchar('1');
