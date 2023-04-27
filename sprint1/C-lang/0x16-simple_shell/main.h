@@ -1,2 +1,8 @@
-This is the header file
-it shall contain all the function prototype and necessary struct types
+#ifndef _MAIN_
+#define _MAIN_
+#include <stdio.h>
+#include <unistd.h>
+#include <stdlib.h>
+
+
+#endif /* _MAIN_ */
