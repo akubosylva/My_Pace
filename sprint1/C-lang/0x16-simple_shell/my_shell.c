@@ -208,5 +208,5 @@ int main(int ac, char *av[])
 {
 	lsh_loop();
 
-	return (0);
+	return (98);
 }
