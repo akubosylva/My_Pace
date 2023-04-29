@@ -1,0 +1,7 @@
+#!/usr/bin/bash
+
+#another method
+#import py_compile
+#py_compile.compile("main.py")
+
+python3 -m compileall -b $PYFILE
