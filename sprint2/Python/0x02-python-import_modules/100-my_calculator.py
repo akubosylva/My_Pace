@@ -15,6 +15,5 @@ if operator not in f:
 a = int(argv[1])
 b = int(argv[3])
 result = f[operator](a, b)
-
 if __name__ == "__main__":
     print("{} {} {} = {}".format(a, operator, b, result))
