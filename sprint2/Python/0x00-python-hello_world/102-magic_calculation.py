@@ -1,2 +1,2 @@
 def magic_calculation(a, b):
-    return()
+    return(98 + (a ** b))
