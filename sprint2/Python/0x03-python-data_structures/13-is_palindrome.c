@@ -11,7 +11,7 @@
 int is_palindrome(listint_t **head)
 {
 	listint_t *tmp = *head; 
-	unsigned int length = 0, i;
+	unsigned int length = 0, i = 0;
 	int data[1024]; /* create buffer to hold characters for comparison*/
 
 	if (head == NULL)
