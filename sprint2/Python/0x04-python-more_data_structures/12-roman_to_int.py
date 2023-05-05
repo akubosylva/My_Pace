@@ -28,12 +28,12 @@ def roman_to_int(roman_string):
             if (i + 1 < len(roman_string)):
                 s2 = value(roman_string[i + 1])
                 if (s1 >= s2):
-                    res = res + s1
-                    i = i + 1
+                    res += s1
+                    i += 1
                 else:
-                    res = res + s2 - s1
-                    i = i + 2
+                    res += s2 - s1
+                    i += 2
             else:
-                res = res + s1
-                i = i + 1
+                res += s1
+                i += 1
         return res
