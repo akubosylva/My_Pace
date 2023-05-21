@@ -204,7 +204,7 @@ void shash_table_print(const shash_table_t *ht)
 	{
 		printf("%s'%s': '%s'", comma, node->key, node->value);
 		comma = ", ";
-		node = node->next;
+		node = node->snext;
 	}
 	puts("}");
 }
